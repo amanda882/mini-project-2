@@ -1,0 +1,44 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+h1 {
+ text-align: center;
+ color: darkblue;
+}
+h2{
+    text-align: center;
+    color: blue;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 147, 129); 
+    padding: 10px, 30px;
+    margin: 10px, 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  select{
+    padding: 5px;
+    margin: 10px;
+  }
