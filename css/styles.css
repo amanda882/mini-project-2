@@ -5,6 +5,61 @@ body {
 }
 h1 {
  text-align: center;
- color: darkblue;
+ color: rgb(84, 6, 186);
 }
-
+h2{
+    text-align: center;
+    color: rgb(109, 4, 144);
+    text-decoration: underline;
+  }
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(57, 147, 129); 
+    padding: 10px, 30px;
+    margin: 10px, 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  select{
+    padding: 5px;
+    margin: 1
+  }
+  p {
+    color: darkblue;
+    text-align: center;
+  }
+  form {
+    text-align: center;
+  }
+  label {
+    color: rgb(113, 19, 201);
+    padding: 40px;
+  }
+  input {
+    padding: 3px;
+  }
+  img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
