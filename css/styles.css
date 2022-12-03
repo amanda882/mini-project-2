@@ -46,6 +46,8 @@ ul {
   p {
     color: darkblue;
     text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
   }
   form {
     text-align: center;
@@ -61,5 +63,10 @@ ul {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  form {
+    margin-bottom: 15px;
   }
