@@ -70,3 +70,12 @@ ul {
   form {
     margin-bottom: 15px;
   }
+  output > table{
+    text-align: center;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;  
+  }
+th,td {
+  border: 1px solid black;
+}
