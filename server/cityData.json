@@ -39,15 +39,15 @@
    },
 
    {
-      "name": "Jacksonville,Florida",
+      "name": "Jacksonville, Florida",
       "latitude": 30.3322,
-      "longitude": 81.6557
+      "longitude": -81.6557
    },
 
    {
-      "name": "Devner, Colorado",
+      "name": "Denver, Colorado",
       "latitude": 39.7392,
-      "longitude": 104.9903
+      "longitude": -104.9903
    },
    {
       "name": "Phoenix, Arizona",

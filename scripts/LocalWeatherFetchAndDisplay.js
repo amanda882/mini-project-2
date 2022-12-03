@@ -1,3 +1,6 @@
+
+let output = document.querySelector("output");
+
 // Our Server City Data Server => http://localhost:3004/cities
 fetch("http://localhost:3004/cities")
   .then((results) => results.json())
@@ -12,6 +15,9 @@ fetch("http://localhost:3004/cities")
     }
 
     cityList.onchange = () => {
+      // Clear output 
+output.innerHTML = "";
+
       let cityOption = cityList.value;
       let selectedCity = data.find((arrItem) => arrItem.name == cityOption);
 
@@ -43,9 +49,9 @@ function getWeather(lat, long) {
 }
 
 function createForecastTable(data) {
-  //Create Table
-  let output = document.querySelector("output");
 
+
+//Create Table
   let table = document.createElement("table");
 
   let tableHeaders = [
